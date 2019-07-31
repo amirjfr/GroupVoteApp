@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <title>GroupVoteApp</title>
+</head>
+<body>
+    <div class="container">
+
+            <h1>Group Vote App</h1> 
+            <p>Vote for your least favorite food</p>
+            <form id="vote-form">
+                <p>
+                    <input type="radio" name="food" id="sushi" value="Sushi">
+                    <label for="sushi">Sushi</label>
+                </p>
+                <p>
+                        <input type="radio" name="food" id="donair" value="Donair">
+                        <label for="donair">Donair</label>
+                    </p>
+                    <p>
+                            <input type="radio" name="food" id="burger" value="Burger">
+                            <label for="burger">Burger</label>
+                        </p>
+                        <p>
+                                <input type="radio" name="food" id="chicken" value="Chicken">
+                                <label for="chicken">Fried Chicken</label>
+                            </p>
+                            <p>
+                                    <input type="radio" name="food" id="sandwich" value="Sandwich">
+                                    <label for="sandwich">Sandwich</label>
+                                </p>  
+                                <input type="submit" value="Vote" class="btn blue">
+            </form>
+
+            <br><br>
+            <div id="chartContainer" style="height: 300px;width:100%"></div>
+    </div>
+
+    
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.2.2/pusher.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
