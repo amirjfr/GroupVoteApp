@@ -1,6 +1,6 @@
 # GroupVoteApp
 
-This is a mobile friendly web app that helps people decide where to eat
+This is a mobile friendly web app that helps people decide where to eat.
 
 ![](Images/start.png)
 
